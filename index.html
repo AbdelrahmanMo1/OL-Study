@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OLStudy</title>
+    <link rel="shortcut icon" href="favicon/logoo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link
+      rel="stylesheet"
+      class="theme-color-style"
+      href="css/colors/color-1.css"
+    />
+    <link rel="stylesheet" class="glass" href="css/glass.css" disabled />
+  </head>
+  <body>
+    <!-- main wrapper -->
+    <div class="main-wrapper">
+      <!-- header -->
+      <header class="header">
+        <div class="container">
+          <div
+            class="
+              header-main
+              d-flex
+              justify-content-between
+              align-items-center
+            "
+          >
+            <div class="header-logo">
+              <a href="index.html">OL<span>Study</span></a>
+            </div>
+            <button type="button" class="header-btn menu-toggler">
+              <span></span>
+            </button>
+            <div class="header-backdrop"></div>
+            <nav class="header-menu">
+              <button type="button" class="header-btn-close menu-toggler">
+                <i class="fa-solid fa-xmark"></i>
+              </button>
+              <ul class="menu">
+                <li class="menu-item"><a href="index.html">Home</a></li>
+                <li class="menu-item">
+                  <a href="#" class="toggle-sub-menu"
+                    >Courses <i class="fa-solid fa-angle-down"></i
+                  ></a>
+                  <ul class="sub-menu">
+                    <li class="sub-menu-item">
+                      <a href="courses.html">Courses</a>
+                    </li>
+                    <li class="sub-menu-item">
+                      <a href="course-details.html">Course Details</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="menu-item">
+                  <a href="#" class="toggle-sub-menu"
+                    >Pages <i class="fa-solid fa-angle-down"></i
+                  ></a>
+                  <ul class="sub-menu">
+                    <li class="sub-menu-item">
+                      <a href="log-in.html">Log In</a>
+                    </li>
+                    <li class="sub-menu-item">
+                      <a href="sign-up.html">Sign Up</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="menu-item"><a href="contact.html">Contact</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+      <!-- end header -->
+      <!-- banner -->
+      <section class="banner d-flex position-relative">
+        <!-- bubble animate -->
+        <div class="bubble">
+          <div class="bubble-item"></div>
+          <div class="bubble-item"></div>
+          <div class="bubble-item"></div>
+          <div class="bubble-item"></div>
+          <div class="bubble-item"></div>
+          <div class="bubble-item"></div>
+          <div class="bubble-item"></div>
+          <div class="bubble-item"></div>
+          <div class="bubble-item"></div>
+        </div>
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-6">
+              <div class="banner-text">
+                <h3>An investment in knowledge pays the best interest</h3>
+                <h1 class="my-3">Best Online Platform For Learning</h1>
+                <p class="pb-3">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Perspiciatis alias nihil vero modi. Cumque, maiores ad?
+                </p>
+                <a href="#" class="main-btn">Join For Free</a>
+              </div>
+            </div>
+            <div class="col-md-6 order-first order-md-last mb-md-0 mb-sm-4">
+              <div class="banner-img">
+                <div class="circular-img">
+                  <div class="circular-img-inner">
+                    <div class="circular-img-circle"></div>
+                    <img src="img/banner-img.png" alt="banner" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end banner -->
+      <!-- numbers -->
+      <section class="numbers">
+        <div class="container">
+          <div class="box py-2">
+            <div class="row">
+              <div class="col-md-6 col-lg-3 mb-0 mb-sm-2">
+                <div class="number-item">
+                  <h2 class="num" data-value="600">0</h2>
+                  <p>Student We've</p>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-3 mb-0 mb-sm-2">
+                <div class="number-item">
+                  <h2 class="num" data-value="400">0</h2>
+                  <p>Courses</p>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-3 mb-0 mb-sm-2">
+                <div class="number-item">
+                  <h2 class="num" data-value="50">0</h2>
+                  <p>Countries</p>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-3 mb-0 mb-sm-2">
+                <div class="number-item">
+                  <h2 class="num" data-value="100">0</h2>
+                  <p>Skilled Instructors</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end number -->
+      <!-- courses -->
+      <section class="courses py-5">
+        <div class="container">
+          <div class="row">
+            <div class="courses-title text-center">
+              <h4>Courses</h4>
+              <h2>Find the right course for you</h2>
+            </div>
+          </div>
+          <div class="row py-5">
+            <div class="col-md-6 col-lg-3 mb-0 mb-sm-4">
+              <div class="courses-item position-relative">
+                <a href="course-details.html" class="link">
+                  <div class="course-item-inner">
+                    <div class="img-box mb-3">
+                      <img
+                        src="./img/courses/web-development/1.jpg"
+                        alt="courses"
+                      />
+                    </div>
+                    <h5>Html for Beginners</h5>
+                    <div class="instructors my-3">
+                      <img src="./img/instructor/1.png" alt="instructors" />
+                      <span>John Doe</span>
+                    </div>
+                    <div class="rating">
+                      <span>(4.5)</span>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                      <samp class="reviews">(200)</samp>
+                    </div>
+                    <p class="price">$39</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3 mb-0 mb-sm-4">
+              <div class="courses-item position-relative">
+                <a href="course-details.html" class="link">
+                  <div class="course-item-inner">
+                    <div class="img-box mb-3">
+                      <img
+                        src="./img/courses/web-development/2.jpg"
+                        alt="courses"
+                      />
+                    </div>
+                    <h5>Css for Beginners</h5>
+                    <div class="instructors my-3">
+                      <img src="./img/instructor/1.png" alt="instructors" />
+                      <span>John Doe</span>
+                    </div>
+                    <div class="rating">
+                      <span>(4.5)</span>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                      <samp class="reviews">(170)</samp>
+                    </div>
+                    <p class="price">$59</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3 mb-0 mb-sm-4">
+              <div class="courses-item position-relative">
+                <a href="course-details.html" class="link">
+                  <div class="course-item-inner">
+                    <div class="img-box mb-3">
+                      <img
+                        src="./img/courses/web-development/3.jpg"
+                        alt="courses"
+                      />
+                    </div>
+                    <h5>Javascript for Beginners</h5>
+                    <div class="instructors my-3">
+                      <img src="./img/instructor/1.png" alt="instructors" />
+                      <span>John Doe</span>
+                    </div>
+                    <div class="rating">
+                      <span>(4.5)</span>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                      <samp class="reviews">(110)</samp>
+                    </div>
+                    <p class="price">$89</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3 mb-0 mb-sm-4">
+              <div class="courses-item position-relative">
+                <a href="course-details.html" class="link">
+                  <div class="course-item-inner">
+                    <div class="img-box mb-3">
+                      <img
+                        src="./img/courses/web-development/4.jpg"
+                        alt="courses"
+                      />
+                    </div>
+                    <h5>Php for Beginners</h5>
+                    <div class="instructors my-3">
+                      <img src="./img/instructor/1.png" alt="instructors" />
+                      <span>John Doe</span>
+                    </div>
+                    <div class="rating">
+                      <span>(4.5)</span>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                      <samp class="reviews">(90)</samp>
+                    </div>
+                    <p class="price">$99</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="text-center mt-3">
+            <a href="courses.html" class="main-btn">View all courses</a>
+          </div>
+        </div>
+      </section>
+      <!-- end courses -->
+      <!-- testimonials -->
+      <section class="testimonials position-relative">
+        <div class="decoration-circle">
+          <div class="decoration-circle-item"></div>
+          <div class="decoration-circle-item"></div>
+          <div class="decoration-circle-item"></div>
+          <div class="decoration-circle-item"></div>
+          <div class="decoration-circle-item"></div>
+        </div>
+        <div class="decoration-imgs d-none d-lg-block">
+          <img
+            src="./img/testimonial/1.png"
+            alt=""
+            class="decoration-img-item"
+          />
+          <img
+            src="./img/testimonial/2.png"
+            alt=""
+            class="decoration-img-item"
+          />
+          <img
+            src="./img/testimonial/3.png"
+            alt=""
+            class="decoration-img-item"
+          />
+        </div>
+        <div class="container">
+          <div class="row my-4">
+            <div class="testimonial-title text-center">
+              <h4>Students Feedback</h4>
+              <h2>What our student say</h2>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-md-8 col-lg-6">
+              <div class="img-box position-relative">
+                <img
+                  src="./img/testimonial/1.png"
+                  class="img-testimonial rounded-circle"
+                  alt="testimonial"
+                />
+              </div>
+              <div
+                id="carouselOne"
+                class="carousel slide text-center"
+                data-bs-ride="carousel"
+              >
+                <div class="carousel-inner">
+                  <div
+                    class="carousel-item active"
+                    data-testimonial-img="img/testimonial/1.png"
+                  >
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Ipsa iusto ullam cumque modi possimus fugit voluptatem
+                      tempora velit illo sunt.
+                    </p>
+                    <h3>John Doe</h3>
+                    <p>Web Developer</p>
+                  </div>
+                  <div
+                    class="carousel-item"
+                    data-testimonial-img="img/testimonial/2.png"
+                  >
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Ipsa iusto ullam cumque modi possimus fugit voluptatem
+                      tempora velit illo sunt.
+                    </p>
+                    <h3>John Doe</h3>
+                    <p>Web Developer</p>
+                  </div>
+                  <div
+                    class="carousel-item"
+                    data-testimonial-img="img/testimonial/3.png"
+                  >
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Ipsa iusto ullam cumque modi possimus fugit voluptatem
+                      tempora velit illo sunt.
+                    </p>
+                    <h3>John Doe</h3>
+                    <p>Web Developer</p>
+                  </div>
+                </div>
+                <div class="d-flex justify-content-center button-carousel">
+                  <button
+                    class="carousel-control-prev me-3"
+                    type="button"
+                    data-bs-target="#carouselOne"
+                    data-bs-slide="prev"
+                  >
+                    <i class="fa-solid fa-angle-left"></i>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#carouselOne"
+                    data-bs-slide="next"
+                  >
+                    <i class="fa-solid fa-angle-right"></i>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end testimonials -->
+      <!-- become a instructor -->
+      <section class="become-inst py-5">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-10">
+              <div class="box p-3">
+                <div class="row align-items-center justify-content-center">
+                  <div class="col-md-6">
+                    <div class="circular-img mb-0 mb-sm-4">
+                      <div class="circular-img-inner">
+                        <div class="circular-img-circle"></div>
+                        <img src="./img/bai-img.png" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="col-md-6 mb-md-0 mb-4 text-md-start text-sm-center"
+                  >
+                    <div class="become-title">
+                      <h4>Become a instructor</h4>
+                      <h2 class="mb-4">Become a Instructor</h2>
+                      <a href="#" class="main-btn">Apply Now</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end become a instructor -->
+      <!-- footer -->
+      <footer class="mt-5">
+        <div class="footer-top pt-5">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6 col-lg-3">
+                <div class="footer-item">
+                  <h4 class="footer-logo">OL<span>Study</span></h4>
+                  <ul class="p-0 mt-3">
+                    <li><a href="#">about</a></li>
+                    <li><a href="#">what we offer</a></li>
+                    <li><a href="#">careers</a></li>
+                    <li><a href="#">certificates</a></li>
+                    <li><a href="#">blog</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-sm-6 col-lg-3">
+                <div class="footer-item">
+                  <h4>Learning</h4>
+                  <ul class="p-0 mt-3">
+                    <li><a href="#">get the app</a></li>
+                    <li><a href="#">testimonial</a></li>
+                    <li><a href="#">pricing</a></li>
+                    <li><a href="#">faq</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-sm-6 col-lg-3">
+                <div class="footer-item">
+                  <h4>More</h4>
+                  <ul class="p-0 mt-3">
+                    <li><a href="#">affiliates</a></li>
+                    <li><a href="#">become a course create</a></li>
+                    <li><a href="#">training webinars</a></li>
+                    <li><a href="#">free personality</a></li>
+                    <li><a href="#">help and support</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-sm-6 col-lg-3">
+                <div class="footer-item">
+                  <h4>Get In Touch</h4>
+                  <ul class="p-0 mt-3">
+                    <li>
+                      <a href="#"
+                        ><i class="fa-brands fa-facebook-f"></i> facebook</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#"
+                        ><i class="fa-brands fa-twitter"></i> twitter</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#"
+                        ><i class="fa-brands fa-instagram"></i> instagram</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#"
+                        ><i class="fa-brands fa-youtube"></i> youtube</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#"
+                        ><i class="fa-brands fa-linkedin-in"></i> linkedin</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <div class="footer-bottom text-center pt-4">
+        <div class="container">
+          <p>Copyright &copy;2022 Coding by <span>Abdelrahman</span></p>
+        </div>
+      </div>
+      <!-- end footer -->
+      <!-- switcher -->
+      <div class="switcher">
+        <div class="switcher-toggle">
+          <i class="fa-solid fa-gear"></i>
+        </div>
+        <h4 class="text-capitalize">style switcher</h4>
+        <div class="switcher-item">
+          <p class="mb-0">Theme Colors</p>
+          <div class="theme-colors">
+            <button
+              type="submit"
+              class="theme-color-item color-1"
+              data-theme-color="color-1"
+            ></button>
+            <button
+              type="submit"
+              class="theme-color-item color-2"
+              data-theme-color="color-2"
+            ></button>
+            <button
+              type="submit"
+              class="theme-color-item color-3"
+              data-theme-color="color-3"
+            ></button>
+            <button
+              type="submit"
+              class="theme-color-item color-4"
+              data-theme-color="color-4"
+            ></button>
+            <button
+              type="submit"
+              class="theme-color-item color-5"
+              data-theme-color="color-5"
+            ></button>
+          </div>
+        </div>
+        <div class="switcher-item my-2">
+          <div class="form-check form-switch">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              role="switch"
+              id="dark-mode"
+            />
+            <label class="form-check-label" for="dark-mode">Dark Mode</label>
+          </div>
+        </div>
+        <div class="switcher-item">
+          <div class="form-check form-switch">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              role="switch"
+              id="glass-effect"
+            />
+            <label class="form-check-label" for="glass-effect"
+              >Glass Effect</label
+            >
+          </div>
+        </div>
+      </div>
+      <!-- end switcher -->
+    </div>
+    <!-- end main wrapper -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
